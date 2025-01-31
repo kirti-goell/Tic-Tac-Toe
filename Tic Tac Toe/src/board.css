@@ -1,0 +1,82 @@
+*{
+    background-image: url('./pics/bg.jpg'); /* Use url(...) to specify the image path */
+    background-size: cover; /* Optional: Ensures the image covers the entire element */
+    background-position: center; /* Optional: Centers the image */
+    background-repeat: no-repeat; /* Optional: Prevents image from repeating*/
+} 
+.board{
+    height: 100vh;
+}
+.form{
+    text-align: center;
+    margin-top: 2%;
+}
+input{
+    background-color: white;
+    background-image: none;
+    z-index: 99;
+    margin: 1%;
+    font-size: x-large;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: beige;
+    font-weight: 900;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+table{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+img {
+    height: 133px;
+    width: 133px;
+    margin-left: 15px ;
+}
+span{
+    color: white;
+    font-size: xx-large;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    font-size: x-large;
+    color: white;
+    padding: 5px;
+}
+.table1{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    table{
+        margin: 2% 0 0 0;
+        width: 99vw;
+        height: 100vw;
+    }
+    input{
+        font-size: larger;
+        width: 40%;
+    }
+    img{
+        margin: 1.5vw 1.5vw;
+        width: 30vw;
+        height: 30vw;
+    }
+    h1{
+        margin : 15% 0 0 0;
+    }
+  } 
